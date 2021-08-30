@@ -1,0 +1,40 @@
+GENERAL:
+  root_dir: ../data/Scene
+  task: train
+DATA:
+  classes: 1
+  ignore_label: -100
+  noise: 0
+  input_channel: 3
+  scale: 5   # voxel_size = 1 / scale, scale (2dm)
+  batch_size: 4
+  full_scale: [128, 512]
+  max_npoint: 250000
+  mode: 4 # 4=mean
+  normal: 1
+  thick: 1
+
+MODEL:
+  m: 16 # 16 or 32
+  block_residual: True
+  block_reps: 2
+  classes: 10
+  use_coords: True
+  pretrain_path:
+  pretrain_module: []
+  fix_module: []
+
+OPTIM:
+  optim: Adam
+  manual_seed: 123
+  epochs: 384
+  lr: 0.001
+  step_epoch: 384
+  multiplier: 0.5
+  momentum: 0.9
+  weight_decay: 0.0001
+  save_freq: 16  # also eval_freq
+
+TEST:
+  pred_path: preds
+  exp_path: ./exp-cyberverse
