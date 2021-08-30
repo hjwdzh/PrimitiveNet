@@ -1,8 +1,10 @@
 # PrimitiveNet
 
-PrimitiveNet: Primitive Instance Segmentation with Local Primitive Embedding under Adversarial Metric (ICCV 2021)
+Source code for the paper:
 
-![TextureNet Teaser](https://github.com/hjwdzh/PrimitiveNet/raw/main/resource/teaser.jpg)
+Jingwei Huang, Yanfeng Zhang, Mingwei Sun. [**PrimitiveNet: Primitive Instance Segmentation with Local Primitive Embedding under Adversarial Metric**], ICCV 2021 .
+
+![PrimitiveNet Teaser](https://github.com/hjwdzh/PrimitiveNet/raw/main/resource/teaser.jpg)
 
 ## Compile
 ```
