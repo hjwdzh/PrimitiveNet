@@ -1,5 +1,5 @@
-#Download data via https://pan.baidu.com/s/1m7AefTRni448jkLSgVqHZg 
-#extraction code p136
+#Download data via https://pan.baidu.com/share/init?surl=Yx-ftkYNdeM3idy3RUGOiw
+#extraction code c6we
 #extract data.zip into data folder
 
 mkdir checkpoints
